@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "KissAnime AreYouHuman Solver",
+	"version": "0.1",
+	
+	"description": "KissAnime AreYouHuman Solver",
+	
+	"author": "BoogiePunk",
+	
+	"content_scripts": [
+		{
+			"matches": [
+				"http://kissanime.ru/Special/AreYouHuman2*"
+			],
+			"js": ["jquery-3.2.1.min.js", "content.js"]
+		}
+	]
+}
